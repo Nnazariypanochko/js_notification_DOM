@@ -6,7 +6,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
 
   notification.classList.add('notification', type);
 
-  notification.style.position = 'absolute';
+  notification.style.position = 'fixed';
 
   const h2 = document.createElement('h2');
 
